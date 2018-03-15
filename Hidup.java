@@ -29,6 +29,6 @@ public abstract Hidup{
     this.posisi = posisi;
   }
 
-  public abstract void search();
-  public abstract void moveTo();
+  public abstract Point search(Char p);
+  public abstract void moveTo(Point orig, Point dest);
 }
