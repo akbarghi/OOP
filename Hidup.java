@@ -1,6 +1,6 @@
 //Human.java
 
-public abstract Hidup{
+public abstract class Hidup{
   protected String nama;
   protected Point posisi;
   
@@ -29,6 +29,6 @@ public abstract Hidup{
     this.posisi = posisi;
   }
 
-  public abstract Point search(Char p);
+  public abstract Point search(char p);
   public abstract void moveTo(Point orig, Point dest);
 }
